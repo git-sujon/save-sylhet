@@ -1,8 +1,7 @@
-body{
+body {
     font-family: 'Inter', sans-serif;
     margin: 0;
     padding: 0;
-  /*  font-family: 'Lobster', cursive;*/
 }
 
 #head-sec {
@@ -10,29 +9,34 @@ body{
     background-size: cover;
 
 }
+
 .container {
     width: 70%;
     margin-left: 160px;
 }
+
 .head-text {
     text-align: center;
     padding-top: 150px;
     padding-bottom: 150px;
     color: white;
 }
+
 .head-text p {
     font-size: 18px;
     padding-bottom: 20px;
 }
-.head-text h1{
+
+.head-text h1 {
     font-size: 65px;
     font-weight: 700;
 }
+
 .button {
     text-decoration: none;
     color: white;
     padding: 15px 20px;
-    background-color:olivedrab; 
+    background: #1abc9c;
     border-radius: 5px;
     font-size: 20px;
 }
@@ -40,20 +44,31 @@ body{
 #donate-sec {
     text-align: center;
 }
+
+.donate-now span {
+    color: #FF5959;
+    font-size: 35px;
+    position: relative;
+    top: 7px;
+}
+
 .donate-head h2 {
     font-size: 45px;
     font-weight: 700;
     color: #121212;
 }
+
 .donate-head p {
     font-size: 18px;
     color: #707070;
 }
+
 .money-count {
     display: flex;
     justify-content: center;
     padding-bottom: 50px;
 }
+
 .money {
     background-color: #fafafa;
     font-size: 30px;
@@ -64,8 +79,9 @@ body{
     border: 1px solid #707070;
     border-radius: 5px;
 }
+
 .five-handed-taka {
-    color:  #FF5959;
+    color: #FF5959;
 }
 
 .input-money {
@@ -74,4 +90,222 @@ body{
     padding: 8px 200px;
     border-bottom: 1px solid #707070;
     margin-bottom: 50px;
+    font-size: 20px;
+}
+
+#donate-box {
+    text-align: center;
+}
+
+.all-box {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.box {
+    width: 360px;
+    height: 300px;
+    margin-left: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.all-box h3 {
+    font-size: 24px;
+    color: rgb(29, 29, 29);
+
+}
+
+.all-box p {
+    color: #121212;
+
+}
+
+.box1 {
+    background-color: #ff9f43;
+}
+
+.box2 {
+    background-color: #ee5253;
+}
+
+.box3 {
+    background-color: #0abde3
+}
+
+.icon {
+    padding-top: 30px;
+
+}
+
+.icon img {
+    width: 60px;
+    height: 60px;
+
+}
+
+.icon-text {
+    margin-top: -20px;
+}
+
+#how-work {
+    background-color: #16a085;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+
+}
+
+.work-part {
+    width: 50%;
+    margin-left: 30px;
+    padding-top: 60px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+.work-part h2 {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.work-part h5 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.work-part p {
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: -20px;
+}
+
+.hr {
+    width: 20px;
+    height: 3px;
+    background-color: #fff;
+    margin-top: -20px;
+
+}
+
+.work-img-part {
+    width: 48%;
+
+}
+
+.work-img-part img {
+    width: 100%;
+    height: 100%;
+
+
+}
+
+.work-sec {
+    display: flex;
+}
+
+.work-sec-2 {
+    padding-bottom: 50px;
+}
+
+.work {
+    width: 40%;
+    margin-left: 20px;
+}
+
+#join-us {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    color: white;
+}
+
+.join-box {
+    padding: 30px 30px;
+    margin-left: 30px;
+    background-color: rgb(1, 79, 83);
+
+}
+
+.join-box p {
+    font-size: 18px;
+    color: #fafafa;
+    padding-bottom: 20px;
+}
+
+.button-join-us {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    outline: 2px solid white;
+    border-radius: 40px;
+    font-size: 20px;
+
+}
+
+.button-div {
+    padding-bottom: 25px;
+}
+
+.get-involved {
+    margin-right: 30px;
+}
+
+#update {
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+    width: 750px;
+    background-color: #16a085;
+    margin-bottom: 100px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.update-text h2 {
+    font-size: 40px;
+    margin-bottom: -10px;
+}
+
+.subscribe-input {
+
+    padding: 8px 100px;
+    font-size: 16px;
+    border: 1px solid lightgray;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.subscribe-button {
+    color: white;
+    background: #1abc9c;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px 20px;
+    border: 1px solid lightgray;
+}
+
+#footer-section {
+    background-color: rgb(1, 79, 83);
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+}
+
+#footer-section h2 {
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+}
+
+#footer-section p {
+    font-size: 20px;
+    margin-top: -20px;
 }
